@@ -1,0 +1,22 @@
+//for adding custom variables
+@import "customVariables/customVariables";
+
+//for adding theme colors
+@import "customVariables/addThemeColors";
+
+//bootstrap required
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+//for remove theme-color
+@import "customVariables/removeThemeColors";
+
+//for core bootstrap typo
+@import "node_modules/bootstrap/scss/root";
+@import "node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/grid.scss";
+@import "node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/transitions.scss";
+@import "../node_modules/bootstrap/scss/print.scss";
+@import "../node_modules/bootstrap/scss/media.scss";
